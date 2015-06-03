@@ -1,6 +1,9 @@
 Python script to download mp4/m3u8/wvm files from toggle.sg.
 
 # Usage
+On Windows:
+Paste your video URL as the 'url' parameter.
+
 On Linux and Mac OS X, first make the script executable:
 `chmod +x download_toggle_video.py`
 
@@ -8,6 +11,7 @@ Then run the script with as many Toggle URLs as you want:
 `./download_toggle_video.py http://video.toggle.sg/blah http://video.toggle.sg/blerk ...`
 
 Tested with:
+- Python v2.7.9 on Windows XP x86
 - Python v2.7.8 on Windows 7 x86
 - Python v2.7.6 on Windows 7 x64
 - Python v2.7.3 on Ubuntu 12.04 x86 (caveats apply; see below)
